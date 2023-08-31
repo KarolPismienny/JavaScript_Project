@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Weather Forecast</h1>
+          <p id="location-text">Get the latest weather information for your location</p>  
+      </header>
+      <div class="box">        
+        <input type="text" id="API_Key" placeholder="Enter your API key">
+        <button type="submit" onclick="getWeatherData()">Get Forecast</button>
+      </div>
+
+      <div id="resultDiv" class="resultDiv"></div>
+
+    
+</body>
+</html>
+
